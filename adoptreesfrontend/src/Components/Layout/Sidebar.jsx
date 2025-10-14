@@ -4,7 +4,7 @@ import "./Sidebar.css";
 
 function Sidebar(){
     return(
-        <div class="sidebar_cont d-none">
+        <div class="sidebar_cont">
             <ul class="main-menu">
                 <li>Plant and gift <span class="arrow">›</span></li>
                 <li>For companies <span class="arrow">›</span></li>
