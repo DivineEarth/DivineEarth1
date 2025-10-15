@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/DivineEarth/static/css/main.b813c759.css",
+    "main.js": "/DivineEarth/static/js/main.32541e75.js",
+    "static/js/453.5862fbe2.chunk.js": "/DivineEarth/static/js/453.5862fbe2.chunk.js",
+    "static/media/logo.png": "/DivineEarth/static/media/logo.200bda4fef5481732136.png",
+    "index.html": "/DivineEarth/index.html",
+    "main.b813c759.css.map": "/DivineEarth/static/css/main.b813c759.css.map",
+    "main.32541e75.js.map": "/DivineEarth/static/js/main.32541e75.js.map",
+    "453.5862fbe2.chunk.js.map": "/DivineEarth/static/js/453.5862fbe2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b813c759.css",
+    "static/js/main.32541e75.js"
+  ]
+}
