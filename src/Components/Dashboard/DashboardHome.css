@@ -50,9 +50,9 @@
   .banner_btn{
     padding:10px 20px;
     border-radius: 5px;
-    border:2px solid white;
+    border:2px solid #6bf26b;
     background-color: transparent;
-    color:white;
+    color:#6bf26b;
     margin:10px;
     font-weight: bold;
   }

@@ -1,0 +1,183 @@
+
+
+/* Main Form Container */
+.profile-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    max-width: 480px;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    margin:auto;
+    z-index: 4;
+    background: transparent;
+    margin-top:100px;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #6c757d;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+/* Header Styles */
+.profile-container h1 {
+    margin: 0 0 10px 0;
+    font-size: 28px;
+    font-weight: 600;
+    color: #212529;
+}
+
+.profile-container p {
+    margin: 0 0 30px 0;
+    font-size: 16px;
+    color: #6c757d;
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: start;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.form-group input::placeholder {
+    color: #adb5bd;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #2db92d;
+    box-shadow: 0 0 0 3px rgba(45, 185, 45, 0.15);
+}
+
+/* Password Field Specifics */
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper .toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #6c757d;
+}
+
+/* Password Requirements List */
+.password-reqs {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    font-size: 13px;
+    color: #6c757d;
+}
+
+.password-reqs li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.password-reqs .icon {
+    color: #2db92d;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+/* Checkbox Styling */
+.checkbox-group {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-top: 4px;
+    margin-right: 10px;
+    width: auto;
+}
+
+.checkbox-group a {
+    color: #2db92d;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.checkbox-group a:hover {
+    text-decoration: underline;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* General Button Styles */
+.btn {
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.btn-secondary {
+    background-color: #ffffff;
+    color: #2db92d;
+    border-color: #2db92d;
+}
+
+.btn-secondary:hover {
+    background-color: #f2fcf2;
+}
+
+.btn-primary {
+    background-color: #2db92d;
+    color: #ffffff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #28a745;
+}
