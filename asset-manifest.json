@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/DivineEarth/static/css/main.a24b9663.css",
-    "main.js": "/DivineEarth/static/js/main.8f8ad88d.js",
-    "static/js/453.5862fbe2.chunk.js": "/DivineEarth/static/js/453.5862fbe2.chunk.js",
-    "static/media/personimg.jpg": "/DivineEarth/static/media/personimg.48bb7b79a485dacd566d.jpg",
-    "static/media/insectimg.jpg": "/DivineEarth/static/media/insectimg.b18dfd98d8eec1230f1e.jpg",
-    "static/media/tribalimg.jpg": "/DivineEarth/static/media/tribalimg.fafc453597a13be3014d.jpg",
-    "static/media/forestimg.jpg": "/DivineEarth/static/media/forestimg.2278c05b6c2cfdb42eb6.jpg",
-    "static/media/animalimg.jpg": "/DivineEarth/static/media/animalimg.5d431d25936ec50f8042.jpg",
-    "static/media/white-logo.png": "/DivineEarth/static/media/white-logo.b4c82fcc554595f162c2.png",
-    "static/media/logo.png": "/DivineEarth/static/media/logo.200bda4fef5481732136.png",
-    "index.html": "/DivineEarth/index.html",
-    "main.a24b9663.css.map": "/DivineEarth/static/css/main.a24b9663.css.map",
-    "main.8f8ad88d.js.map": "/DivineEarth/static/js/main.8f8ad88d.js.map",
-    "453.5862fbe2.chunk.js.map": "/DivineEarth/static/js/453.5862fbe2.chunk.js.map"
+    "main.css": "/DivineEarth1/static/css/main.a24b9663.css",
+    "main.js": "/DivineEarth1/static/js/main.64d24569.js",
+    "static/js/453.5862fbe2.chunk.js": "/DivineEarth1/static/js/453.5862fbe2.chunk.js",
+    "static/media/personimg.jpg": "/DivineEarth1/static/media/personimg.48bb7b79a485dacd566d.jpg",
+    "static/media/insectimg.jpg": "/DivineEarth1/static/media/insectimg.b18dfd98d8eec1230f1e.jpg",
+    "static/media/tribalimg.jpg": "/DivineEarth1/static/media/tribalimg.fafc453597a13be3014d.jpg",
+    "static/media/forestimg.jpg": "/DivineEarth1/static/media/forestimg.2278c05b6c2cfdb42eb6.jpg",
+    "static/media/animalimg.jpg": "/DivineEarth1/static/media/animalimg.5d431d25936ec50f8042.jpg",
+    "static/media/white-logo.png": "/DivineEarth1/static/media/white-logo.b4c82fcc554595f162c2.png",
+    "static/media/logo.png": "/DivineEarth1/static/media/logo.200bda4fef5481732136.png",
+    "index.html": "/DivineEarth1/index.html",
+    "main.a24b9663.css.map": "/DivineEarth1/static/css/main.a24b9663.css.map",
+    "main.64d24569.js.map": "/DivineEarth1/static/js/main.64d24569.js.map",
+    "453.5862fbe2.chunk.js.map": "/DivineEarth1/static/js/453.5862fbe2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a24b9663.css",
-    "static/js/main.8f8ad88d.js"
+    "static/js/main.64d24569.js"
   ]
 }
