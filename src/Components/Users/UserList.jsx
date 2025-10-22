@@ -7,24 +7,24 @@ function UserList({ open, onClose }) {
 
     return (
         
-        <div class="profile-container">
-            <button class="close-btn" onClick={onClose}>&times;</button>
+        <div className="profile-container">
+            <button className="close-btn" onClick={onClose}>&times;</button>
 
             <h1>Create your profile</h1>
             <p>Insert the requested information to complete the registration on Treedom.</p>
 
             <form>
-                <div class="form-group">
+                <div className="form-group">
                     <label for="name">Name *</label>
                     <input type="text" id="name" placeholder="e.g. John"/>
                 </div>
 
-                <div class="form-group">
+                <div className="form-group">
                     <label for="last-name">Last name *</label>
                     <input type="text" id="last-name" placeholder="e.g. Smith"/>
                 </div>
 
-                <div class="form-group">
+                <div className="form-group">
                     <label for="country">Country *</label>
                     <select name="country" id="country">
                         <option value="">Select Country</option>
@@ -249,62 +249,62 @@ function UserList({ open, onClose }) {
 
                 </div>
 
-                <div class="form-group">
+                <div className="form-group">
                     <label for="state">State *</label>
                     <input type="text" id="state"/>
                 </div>
 
-                <div class="form-group">
+                <div className="form-group">
                     <label for="email">Email *</label>
                     <input type="email" id="email" placeholder="e.g. johnsmith@gmail.com"/>
                 </div>
 
-                <div class="form-group">
+                <div className="form-group">
                     <label for="confirm-email">Confirm e-mail address *</label>
                     <input type="email" id="confirm-email" placeholder="e.g. johnsmith@gmail.com"/>
                 </div>
 
-                <div class="form-group">
+                <div className="form-group">
                     <label for="password">Password *</label>
-                    <div class="password-wrapper">
+                    <div className="password-wrapper">
                         <input type="password" id="password"/>
-                        <span class="toggle-password">👁</span>
+                        <span className="toggle-password">👁</span>
                     </div>
-                    <ul class="password-reqs">
-                        <li><span class="icon">✓</span>8 characters</li>
-                        <li><span class="icon">✓</span>1 uppercase character</li>
-                        <li><span class="icon">✓</span>1 lowercase character</li>
-                        <li><span class="icon">✓</span>1 number</li>
+                    <ul className="password-reqs">
+                        <li><span className="icon">✓</span>8 characters</li>
+                        <li><span className="icon">✓</span>1 uppercase character</li>
+                        <li><span className="icon">✓</span>1 lowercase character</li>
+                        <li><span className="icon">✓</span>1 number</li>
                     </ul>
                 </div>
 
-                <div class="form-group">
+                <div className="form-group">
                     <label for="confirm-password">Confirm your password *</label>
-                    <div class="password-wrapper">
+                    <div className="password-wrapper">
                         <input type="password" id="confirm-password"/>
-                        <span class="toggle-password">👁</span>
+                        <span className="toggle-password">👁</span>
                     </div>
                 </div>
 
 
-                <div class="checkbox-group">
+                <div className="checkbox-group">
                     <input type="checkbox" id="terms"/>
                     <label for="terms">I declare that I accept the <a href="#">terms and conditions</a> of the sale and that I have read the <a href="#">privacy policy</a>. I am aware of the possibility of receiving transactional emails and updates regarding the online service.</label>
                 </div>
 
-                <div class="checkbox-group">
+                <div className="checkbox-group">
                     <input type="checkbox" id="updates"/>
                     <label for="updates">I want to stay updated on the Treedom world and on news, discounts, promotions and initiatives</label>
                 </div>
 
-                <div class="checkbox-group">
+                <div className="checkbox-group">
                     <input type="checkbox" id="offers"/>
                     <label for="offers">I want to receive offers designed especially for me</label>
                 </div>
 
-                <div class="button-container">
-                    <button type="button" class="btn btn-secondary" onClick={onClose}>Go Back</button>
-                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                <div className="button-container">
+                    <button type="button" className="btn btn-secondary" onClick={onClose}>Go Back</button>
+                    <button type="submit" className="btn btn-primary">Sign Up</button>
                 </div>
             </form>
         </div>

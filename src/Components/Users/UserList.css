@@ -4,21 +4,28 @@
 .profile-container {
     background-color: #ffffff;
     padding: 40px;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    max-width: 480px;
-    width: 100%;
-    position: relative;
+    max-width: 750px;
+    max-height: 90vh;
+    width: 900px;
+    position: fixed;
     box-sizing: border-box;
-    margin:auto;
-    z-index: 4;
-    background: transparent;
-    margin-top:100px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    overflow: auto;
 }
 
 /* Close Button */
 .close-btn {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 20px;
     font-size: 24px;
@@ -26,8 +33,13 @@
     cursor: pointer;
     border: none;
     background: transparent;
+    display: block;
 }
 
+.close-btn:hover {
+    transform: rotate(360deg);
+    transition: transform 0.3s ease;
+}
 /* Header Styles */
 .profile-container h1 {
     margin: 0 0 10px 0;
@@ -169,7 +181,9 @@
 }
 
 .btn-secondary:hover {
-    background-color: #f2fcf2;
+    background-color: #2db92d;
+    color:#fff;
+    border-width: 0px;
 }
 
 .btn-primary {
