@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DivineEarth1/static/css/main.5e11949a.css",
-    "main.js": "/DivineEarth1/static/js/main.53bc6da6.js",
+    "main.js": "/DivineEarth1/static/js/main.d50c54ef.js",
     "static/js/453.5862fbe2.chunk.js": "/DivineEarth1/static/js/453.5862fbe2.chunk.js",
     "static/media/personimg.jpg": "/DivineEarth1/static/media/personimg.48bb7b79a485dacd566d.jpg",
     "static/media/insectimg.jpg": "/DivineEarth1/static/media/insectimg.b18dfd98d8eec1230f1e.jpg",
@@ -14,11 +14,11 @@
     "static/media/apple.png": "/DivineEarth1/static/media/apple.9f3bff9d60f4e2f688c7.png",
     "index.html": "/DivineEarth1/index.html",
     "main.5e11949a.css.map": "/DivineEarth1/static/css/main.5e11949a.css.map",
-    "main.53bc6da6.js.map": "/DivineEarth1/static/js/main.53bc6da6.js.map",
+    "main.d50c54ef.js.map": "/DivineEarth1/static/js/main.d50c54ef.js.map",
     "453.5862fbe2.chunk.js.map": "/DivineEarth1/static/js/453.5862fbe2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e11949a.css",
-    "static/js/main.53bc6da6.js"
+    "static/js/main.d50c54ef.js"
   ]
 }
