@@ -30,23 +30,26 @@ function App() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    auth.onAuthStateChanged((person) => {
-      if(person){
-        setUser(person);
-      }else{
-        setUser(null);
-      }
-    })
+    const unsub = auth.onAuthStateChanged((person) => setUser(person || null));
+    // handle redirect result (optional useful for debugging)
+    auth.getRedirectResult().then((result) => {
+      if (result?.user) console.log('Redirect sign-in success:', result.user);
+    }).catch(e => console.error('getRedirectResult error', e));
+    return () => unsub();
   }, []);
+
   const signInWithGoogle = async () => {
+    const provider = new firebase.auth.GoogleAuthProvider();
+    provider.setCustomParameters({ prompt: 'select_account' });
+
     try{
        await auth.setPersistence(firebase.auth.Auth.Persistence.SESSION);
-      const provider = new firebase.auth.GoogleAuthProvider();
-      provider.setCustomParameters({ prompt: 'select_account' }); // force account chooser
+       
       await auth.signInWithPopup(provider);
     }
     catch(err){
-      console.log(err);
+       console.error('Popup sign-in failed, falling back to redirect:', err);
+       await auth.signInWithRedirect(provider);
     }
   }
 
